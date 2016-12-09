@@ -1,0 +1,101 @@
+.iphone7 {
+    float: left;
+    border: 1px solid;
+    width: 231px;
+    height: 470PX;
+    background-color: black;
+    border-radius: 34px;
+}
+
+.screen {
+    position: absolute;
+    top: 63px;
+    left: 21px;
+    width: 205px;
+    height: 364px;
+    background-color: white;
+}
+
+.circle01 {
+    position: absolute;
+    top: 22px;
+    left: 121px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.circle02 {
+    position: absolute;
+    top: 34px;
+    left: 80px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.circle03 {
+    position: absolute;
+    top: 435px;
+    left: 107px;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.line {
+    position: absolute;
+    top: 36px;
+    left: 103px;
+    width: 42px;
+    height: 3px;
+    border-radius: 15%;
+    background-color: white;
+}
+
+.button01 {
+    float: left;
+    position: absolute;
+    top: 62px;
+    left: 6px;
+    width: 2px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: black
+}
+
+.button02 {
+    float: left;
+    position: absolute;
+    top: 100px;
+    left: 6px;
+    width: 2px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: black
+}
+
+.button03 {
+    float: left;
+    position: absolute;
+    top: 140px;
+    left: 6px;
+    width: 2px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: black
+}
+
+.button04 {
+    float: left;
+    position: absolute;
+    top: 90px;
+    left: 241px;
+    width: 2px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: black
+}
