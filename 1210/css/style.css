@@ -1,6 +1,19 @@
 .hearder {
-    height: 150px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 30px 0px;
+    background-color: azure;
+}
+
+.hearder h1 {
+    font-size: 36px;
+    color: #6a6a6a;
     padding: 20px;
+}
+
+.hearder p {
+    color: #5a5a5a;
+    padding: 10px;
 }
 
 
@@ -111,4 +124,18 @@
 
 .thumbnail:hover .caption p {
     opacity: 1;
+}
+
+
+/* 連結不變色 */
+
+a,
+a:link,
+a:visited {
+    color: #6a6a6a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4949;
 }
