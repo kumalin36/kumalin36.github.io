@@ -1,0 +1,99 @@
+.hearder {
+    height: 150px;
+    padding: 20px;
+}
+
+
+/* 底圖設定 */
+
+body {
+    background: url(https://c1.staticflickr.com/4/3676/9136661560_9238d692d2_h.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+
+
+/* RWD 設定 */
+
+@media only screen and (max-width:500px) {
+    .box {
+        margin: 2% 2%;
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:1200px) {
+    .box {
+        margin: 15% 15%;
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .box {
+        margin: 5% 30%;
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+    }
+}
+
+
+/* 圖文設定 */
+
+.thumbnail {
+    position: relative;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+}
+
+.caption {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.caption h1 {
+    font-size: 36px;
+    color: #639eac;
+}
+
+.caption p {
+    font-size: 15px;
+}
+
+
+/* 裝飾線設定 */
+
+.line,
+.line:after,
+.line:before {
+    vertical-align: middle;
+}
+
+.line:before,
+.line:after {
+    content: "";
+    display: inline-block;
+    width: 20%;
+    border: 1px solid #ddd;
+}
+
+.line:after {
+    margin-left: 20px;
+}
+
+.line:before {
+    margin-right: 20px;
+}

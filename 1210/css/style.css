@@ -1,0 +1,84 @@
+.hearder {
+    height: 150px;
+    padding: 20px;
+}
+
+
+/* 圖文設定 */
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail img {
+    width: 90%;
+    border-radius: 10px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.thumbnail:after {
+    content: "";
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.thumbnail:after {
+    width: 90%;
+    height: 99%;
+    background-color: #4242ff;
+}
+
+.thumbnail.red:after {
+    background-color: #ff7c7c;
+}
+
+.thumbnail.green:after {
+    background-color: #aaff48;
+}
+
+.thumbnail:hover:after {
+    opacity: 0;
+}
+
+.thumbnail:hover {
+    width: 110%;
+    height: 110%;
+    position: relative;
+}
+
+.thumbnail .caption {
+    height: 50px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 88888;
+}
+
+.thumbnail .caption h3 {
+    line-height: 50px;
+    transition: line-height 0.5s;
+}
+
+.thumbnail .caption p {
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.thumbnail:hover .caption h3 {
+    line-height: 1;
+}
+
+.thumbnail:hover .caption p {
+    opacity: 1;
+}
