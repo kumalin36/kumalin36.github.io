@@ -99,3 +99,68 @@
     border-radius: 3px;
     background-color: black
 }
+
+
+/* iframe 設定 */
+
+h1 {
+    font-size: 48px;
+}
+
+hr {
+    border: 0;
+    width: 90%;
+    height: 1px;
+    background-color: #d4d4d4;
+}
+
+.jumbotron {
+    background-color: #9dd3e0;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tumbnail {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+.tumbnail img {
+    width: 80%;
+    border-radius: 50px 0px;
+}
+
+.btn {
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-lg {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.btn-primary {
+    background-color: rgba(253, 159, 34, 0.85);
+}
+
+
+/* 連結不變色 */
+
+a,
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4949;
+}
