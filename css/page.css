@@ -1,0 +1,67 @@
+.header {
+    height: 30px;
+    background-color: dodgerblue
+}
+
+.row {
+    padding: 20px;
+}
+
+.content {
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+.content img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+#side {
+    overflow: auto;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+
+/* 選單設定 */
+
+nav {
+    width: 100%;
+    height: 260px;
+    color: #626262;
+    overflow: auto;
+    text-align: center;
+}
+
+li:after {
+    content: "";
+    display: inherit;
+    margin: 0 5%;
+    border: 1px solid #d3d3d3;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav>ul>li {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: inherit;
+}
+
+
+/* 連結不變色 */
+
+a,
+a:link,
+a:visited {
+    color: #626262;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffaaaa;
+}
