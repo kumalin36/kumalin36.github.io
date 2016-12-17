@@ -82,7 +82,7 @@ section {
 
 @media only screen and (max-width:768px) {
     .container {
-        width: 100%;
+        text-align: center;
     }
     .col-sm-1 {
         width: calc(100%*1/12);
