@@ -93,6 +93,7 @@ body {
     height: 100px;
     border-radius: 50%;
     position: relative;
+    border: 0px;
     transition: width 0.5s, height 0.5s;
 }
 

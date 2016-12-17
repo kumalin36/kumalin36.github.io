@@ -3,9 +3,12 @@ Header
 */
 
 header {
-    color: #000000;
+    background-image: url(https://c1.staticflickr.com/4/3676/9136661560_9238d692d2_h.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 250px;
+    padding: 20px;
+    color: #123;
 }
 
 
@@ -79,4 +82,42 @@ blockquote {
 .caption-btn:active {
     color: white;
     background-color: #676D79;
+}
+
+
+/* 選單設定 */
+
+nav {
+    width: 100%;
+    background-color: #60d1c0;
+    color: white;
+    overflow: auto;
+    text-align: center;
+}
+
+nav ul {
+    padding: 10px;
+}
+
+nav>ul>li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 1px solid;
+    display: inline-block;
+}
+
+
+/* 連結不變色 */
+
+a,
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5ffaa;
 }
